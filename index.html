@@ -4,11 +4,22 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>        
         <title>Persistindo array de objetos</title>
     </head>
-
     <body>
-        <script src="./script.js"></script>        
+        <section>
+            <h1 class="title-1">Doooing</h1>
+            <div class="new-task__container">
+                <input id="new-task" type="text" placeholder="Write my task..." />
+                <button id="add-task">Add</button>
+            </div>
+        </section>
+        <section>
+            <ul id="task__list"></ul>
+            <h2 id="no-tasks" class="title-2">No task registered...</h2>
+        </section>
     </body>
 </html>
